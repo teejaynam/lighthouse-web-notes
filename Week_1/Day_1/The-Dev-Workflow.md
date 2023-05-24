@@ -4,7 +4,7 @@
 
 * VS Code Cheat Sheet / Shortcuts
   * [Windows shortcuts](/Week_1/Day_1/keyboard-shortcuts-windows.pdf)
-  
+---
 * Git commands - Best Practices
   * [Git Cheatsheet](/Week_1/Day_1/git-cheat-sheet.pdf)
     * ``` git -v ``` - check installed version of git
@@ -20,9 +20,15 @@
     * forking is when you want to make changes to a copy of code/repo when you do not have write access to it by copying it as a local repository
     * Branches
       * Can check for commits
-  
+  ---
 * Incremental Development
-  * Approach problem solving, step by step
+  * Approach problem solving, list step by step
     1. State the hypothesis
     2. Verify the hypothesis
     3. Make changes
+
+    * Get the arguments/parameter requirements
+    * Check for safety : not a number, empty, negative numbers, data types
+    * Develop the function/problem - what must be changed or calculated, refer to safety
+
+  ---

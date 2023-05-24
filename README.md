@@ -11,3 +11,4 @@ This repository will contain all the notes taken by [Taek Joon (TJ)](https://git
   1. Pseudocode and refactoring
   2. ESLint
   3. Markdown 
+  4. The Dev Workflow
