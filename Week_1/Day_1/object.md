@@ -27,12 +27,47 @@
 * Typically called a method
 ``` 
 const myObj = {
-  firstName : 'Lorem'
-  lastName : 'Ipsum'
+  firstName : 'Lorem',
+  lastName : 'Ipsum',
+  array : ['a','b','c'],
   sayHello : function(){
     console.log(`hello ${this.firstName}`);
+  },
+  myObj2 : {
+    test : 'test'
   }
 }
 ``` 
 * We can call this method by ``` myObj.sayHello(); ```
 * When working with a method/function inside of an object we can use ``` this ``` to access the values of the object its called in
+
+* We can iterate through objects with 
+```
+for (const key in myObj) {
+  console.log(key);
+  console.log(myObj[key]);
+}
+```
+```
+for (const key in myObj){
+  if (Array.isArray(myObj[key])){
+    for (const element of myObj[key]){
+      console.log(element);
+    }
+  }
+}
+```
+* to iterate through array inside object
+```
+for (const element of myObj.array) {
+  console.log(element);
+}
+```
+* to iterate through object inside object
+```
+for (const key in myObj.myObj2) {
+  console.log(key);
+  console.log(myObj.myObj2[key]);
+}
+```
+
